@@ -1,0 +1,358 @@
+.container {
+    width:80%;
+    margin:20px auto;
+    background: #FFFFFF;
+    border:1px solid #DCDCDC;
+    padding:20px;
+	border-radius:10px;
+}
+body {
+    background-image:url('../img/gcb-s-bg.jpg');
+	background-size:cover;
+    color: #777;
+    font: normal 15px Arial, Helvetica, Geneva, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+header {
+	    font: normal 15px "Crete Round", Arial, Helvetica, Geneva, sans-serif;
+}
+h1.chat_title {
+	text-align:center;
+}
+h2 {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #02b8dd;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top:80px;
+}
+
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+table {
+	text-align:center;
+	margin:0 auto;
+}
+td {
+	padding:14px 18px;
+}
+thead tr {
+	background-color:#dedede;
+}
+thead td {
+	font-size:18px;
+	font-weight:bold;
+}
+tbody td {
+	font-size:18px;
+}
+tbody tr:nth-child(odd) {
+	background-color:#F5F5F5;
+}
+
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    direction: ltr;
+    float: left;
+    margin-top: 32px;
+	color:#FFFFFF;
+}
+
+header h1 .color {
+    color: #02b8dd;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    float: right;
+    display: inline-block;
+    margin-top: 50px;
+	color:#FFFFFF;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+#hero-image {
+    height: 580px;
+    padding-top: 1px;
+    background: #FFFFFF url('../img/board.jpg') no-repeat center;
+}
+
+#hero-image h2 {
+    margin: 330px 0 40px 0;
+    color:  #02b8dd;
+}
+
+.feature-1 h4 a, .feature-2  h4 a{
+	color:#FFFFFF;
+}
+.feature-1 h4 a:hover, .feature-2 h4 a:hover {
+	color:#02b8dd;
+}
+
+.green_btn {
+	padding:6px 12px;
+	border-radius:6px;
+	color:#FFFFFF;
+	background-color:#7fda7f;
+	text-align:center;
+	font-weight:bold;
+}
+
+.chats_list a {
+	font-size:18px;
+}
+.gray_btn {
+	padding:6px 12px;
+	border-radius:6px;
+	color:#FFFFFF;
+	background-color:#9a9898;
+	text-align:center;
+	font-weight:bold;
+}
+
+.button-1 {
+    display: block;
+    text-align: center;
+    background: #444;
+    border-radius: 3px;
+    color: #02b8dd;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.button-1:hover {
+    background-color: #02b8dd;
+    color: #fff;
+}
+#features ul {
+    margin: 80px 0;
+}
+
+#features ul li {
+    width: 45%;
+    margin: 0 3%;
+    padding-top: 300px;
+	list-style-type: none;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#features ul li.feature-1 {
+    background: url('../img/chat.jpg') no-repeat top center;
+    background-size:cover;
+}
+#features ul li.feature-2 {
+    background: url('../img/kors.jpg') no-repeat top center;
+    background-size:cover;
+}
+
+#chatResult {
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    border:1px solid #000000;
+}
+.message_details {
+    display: inline-block;
+    font-weight:bold;
+    direction: ltr;
+}
+.message_text {
+    display: inline-block;
+}
+.myMessageField {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    height: 100px;
+}
+#chatForm input[type="submit"] {
+    margin:0 auto;
+    background: #000000;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size:16px;
+    text-align: center;
+    padding:8px 12px;
+    border:none;
+    display: block;
+    cursor:pointer;
+}
+.chats_buttons {
+	position:relative;
+	margin:0px 0 40px 0;
+	text-align:center;
+}
+.chats_buttons a {
+	display:inline-block;
+	padding:8px 12px;;
+	color:#FFFFFF;
+	background:#FFFFFF;
+	border:1px solid #000000;
+	text-align:center;
+	color:#000000;
+	border-radius:10px;
+	font-weight:bold;
+}
+.chats_buttons a:hover {
+	background-image:url('../img/button_bg.png');
+	background-size:cover;
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+}
+/**
+Lightbox
+ */
+
+.lightbox {
+    display:none;
+    position: fixed;
+	padding:30px;
+    margin: 0% auto;
+    top: 150px;
+    left: 0;
+    right: 0;
+    min-width: 500px;
+    max-width:900px;
+    min-height: 200px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 3px;
+    z-index: 9;
+}
+.close_lightbox {
+    position: absolute;
+    top:25px;
+    right:25px;
+    font-size:18px;
+    font-weight:bold;
+}
+.overlay {
+    display:none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.chat_files {
+	height:200px;
+	overflow-y:scroll;
+}
+.chats_list a {
+    color:#02b8dd;
+}
+.chat_right_div {
+    float:right;
+    width:20%;
+    margin:20px auto;
+    box-sizing:border-box;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    padding: 20px;
+    border-radius: 10px;
+}
+.chat_right_div h5 {
+    margin:5px auto 10px auto;
+    font-size:20px;
+}
+form#google_search {
+    margin:20px auto;
+    text-align: center;
+}
+form#google_search input[type="text"] {
+    border:none;
+    padding:10px 15px;
+    width:200px;
+    color:#000000;
+    font-weight:bold;
+    border-radius:10px;
+}
+form#google_search input[type="submit"] {
+    cursor:pointer;
+    border:none;
+    padding:10px 25px;
+    background: #02b8dd;
+    text-align: center;
+    color:#FFFFFF;
+    font-weight:bold;
+    border-radius:10px;
+}
